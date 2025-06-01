@@ -1,0 +1,125 @@
+.grid-container {
+  display: grid;
+  justify-content: center;
+  gap: 32px;
+}
+
+* {
+  font-family: "Inter", "Helvetica Neue", Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.card {
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  color: #495057;
+  box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+  padding: 8px;
+}
+
+.right-gradient-transparent {
+  -webkit-mask-image: linear-gradient(to left, transparent, white 30%);
+  mask-image: linear-gradient(to left, transparent, white 30%);
+}
+
+.too-long-text {
+  position: relative;
+  margin: 0;
+  cursor: default;
+  white-space: nowrap;
+  overflow: visible;
+  display: inline-block;
+}
+
+
+
+.sidebar-left {
+  box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .1);
+  border-right: 4px solid #495057;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-button {
+  padding: 8px 0px 8px 0px;
+  cursor: pointer;
+}
+
+.sidebar-buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar-bottom-container {
+  box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .1);
+  border-top: 4px solid #495057;
+}
+
+.sidebar-top-container {
+  box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .1);
+  border-bottom: 4px solid #495057;
+}
+
+
+@media (min-width: 768px) {
+
+  .sidebar-button {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar-buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar-left {
+    width: 256px;
+  }
+
+  .sidebar-top-container {
+    display: none;
+  }
+
+  .sidebar-bottom-container {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .sidebar-left {
+    display: none;
+  }
+
+  .sidebar-button {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .sidebar-buttons-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
