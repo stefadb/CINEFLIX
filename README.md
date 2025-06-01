@@ -1,15 +1,10 @@
-# React + TypeScript + Vite
+# CINEFLIX Assessment project for Startup Bakery Lab SRL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed as an assessment for Stratup Bakery Lab SRL. It is a React + Vite + Typescript web app to search, save and rate movies!
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The first thing to do is installing [Node.js](https://nodejs.org/en/download)
 
 ```js
 export default tseslint.config({
