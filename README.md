@@ -4,7 +4,7 @@ This project was developed as an assessment for Stratup Bakery Lab SRL. It is a 
 
 ## Installation
 
-- The first thing to do after downloading all project files, is installing [Node.js](https://nodejs.org/en/download). It will automatically include npm, to write every command you need.
+- The first thing to do after downloading and extracting all project files, is installing [Node.js](https://nodejs.org/en/download). It will automatically include npm, to write every command you need.
 
 - In your command prompt, move to the main directory of the project you downloaded and type
 
