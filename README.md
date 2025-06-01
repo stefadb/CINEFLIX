@@ -28,6 +28,6 @@ npm run dev
 
 to actually start the web app locally on your computer.
 
-- Open your browser and type [this](http://localhost:5173) to open the web app
+- Open your browser and go to [this](http://localhost:5173) URL to open the web app
 
 - That's it. Enjoy :-)
